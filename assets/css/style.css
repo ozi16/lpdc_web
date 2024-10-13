@@ -1,0 +1,56 @@
+
+:root{
+    --firstColor :#ED017F;
+}
+
+
+
+body {
+    font-family: "poppins",sans-serif;
+}
+
+/* Hero */
+
+/* .ep-hero_tittle {
+    font-family: "poppins",sans-serif;
+    font-size: 63px;
+} */
+
+.ep-hero_text{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+
+}
+
+.ep-hero__btn {
+    margin-top: 30px;
+}
+
+.ep-hero__widget{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+/* Catagorry */
+ep-category__card{
+    width: 80px;
+    height: 80px;
+  line-height: 80px;
+  border-radius: 100%;
+  text-align: center;
+  position: relative;
+  margin-top: -40px;
+}
+
+.pbmit-right-box {
+    margin-left: 30px;
+}
+
+.btn {
+    color: var(--firstColor);
+}
+
